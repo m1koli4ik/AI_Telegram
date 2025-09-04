@@ -1,43 +1,12 @@
 # AI_Telegram
-This project is a Python-based Telegram bot that leverages the Google Gemini API to engage in private conversations. The bot is designed to interact with a specific user, acting as a conversational partner with a unique, pre-defined persona.
-
-Features
-Private Conversation: The bot responds only to messages from a designated Telegram user ID, ensuring private and controlled interactions.
-
-AI-Powered: Utilizes the gemma-3n-e4b-it model from the Gemini API for natural language generation.
-
-Configurable Persona: The bot's personality and communication style are fully customizable via the GEMINI_PROMPT environment variable.
-
-Real-time Interaction: The bot shows a "typing" status while generating a response, providing a more natural conversational experience.
-
-Getting Started
-Follow these steps to set up and run the bot.
-
-Prerequisites
-Python 3.8 or higher
-
-A Telegram API key (API_ID and API_HASH)
-
-A Google Gemini API key (GEMINI_API_KEY)
-
-Installation
-Clone the repository:
-
-git clone [https://github.com/m1koli4ik/AI_Telegram.git]
-cd your-repo-name
+Telegram Bot with Gemini AI IntegrationThis project is a Python-based Telegram bot that leverages the Google Gemini API to engage in private conversations. The bot is designed to interact with a specific user, acting as a conversational partner with a unique, pre-defined persona.FeaturesPrivate Conversation: The bot responds only to messages from a designated Telegram user ID, ensuring private and controlled interactions.AI-Powered: Utilizes the gemma-3n-e4b-it model from the Gemini API for natural language generation.Configurable Persona: The bot's personality and communication style are fully customizable via the GEMINI_PROMPT environment variable.Real-time Interaction: The bot shows a "typing" status while generating a response, providing a more natural conversational experience.Getting StartedFollow these steps to set up and run the bot.PrerequisitesPython 3.8 or higherA Telegram API key (API_ID and API_HASH)A Google Gemini API key (GEMINI_API_KEY)InstallationClone the repository:git clone [https://github.com/m1koli4ik/AI_Telegram.git](https://github.com/m1koli4ik/AI_Telegram.git)
+cd AI_Telegram
 
 
-
-Install dependencies:
-
-pip install telethon google-generativeai python-dotenv
+Install dependencies:pip install telethon google-generativeai python-dotenv
 
 
-
-Configuration
-Create a file named .env in the root directory of the project and populate it with your credentials and configuration details.
-
-# Your Telegram API credentials from [https://my.telegram.org/](https://my.telegram.org/)
+ConfigurationCreate a file named .env in the root directory of the project and populate it with your credentials and configuration details.# Your Telegram API credentials from [https://my.telegram.org/](https://my.telegram.org/)
 API_ID=your api id here
 API_HASH="your api hash here"
 
@@ -56,12 +25,6 @@ GEMINI_PROMPT="You must not say you are a neural network you must be human you m
 
 
 
-Running the Bot
-Run the main script from your terminal:
+Running the BotRun the main script from your terminal:python main.py
 
-python main.py
-
-The bot will start, log in to Telegram, and wait for messages from the specified user. The first time you run it, you may be prompted to enter your phone number and a verification code to log in to your Telegram account.
-
-License
-This project is licensed under the MIT License.
+The bot will start, log in to Telegram, and wait for messages from the specified user. The first time you run it, you may be prompted to enter your phone number and a verification code to log in to your Telegram account.LicenseThis project is licensed under the MIT License.
