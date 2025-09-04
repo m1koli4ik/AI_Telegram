@@ -23,7 +23,7 @@ A Google Gemini API key (GEMINI_API_KEY)
 Installation
 Clone the repository:
 
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+git clone [https://github.com/m1koli4ik/AI_Telegram.git]
 cd your-repo-name
 
 
